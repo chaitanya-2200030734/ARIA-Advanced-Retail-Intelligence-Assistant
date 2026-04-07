@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes aria-bounce {
+  0%,100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes aria-pulse {
+  0%,100% {
+    box-shadow: 0 0 0 0 rgba(201, 123, 46, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(201, 123, 46, 0);
+  }
+}
+
+@keyframes mic-pulse {
+  0%,100% {
+    box-shadow: 0 0 0 0 rgba(185, 78, 45, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(185, 78, 45, 0);
+  }
+}
+
+.aria-bounce {
+  animation: aria-bounce 1.4s infinite;
+}
+
+.aria-pulse {
+  animation: aria-pulse 2s infinite;
+}
+
+.mic-pulse {
+  animation: mic-pulse 1s infinite;
+}
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', serif;
+}
+
+.text-mono {
+  font-family: 'DM Mono', monospace;
+}

@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "ARIA Retail",
+    "slug": "aria-retail-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.aria.retail"
+    },
+    "android": {
+      "package": "com.aria.retail"
+    },
+    "scheme": "aria-retail"
+  }
+}
