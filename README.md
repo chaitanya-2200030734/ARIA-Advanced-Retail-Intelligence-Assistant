@@ -1,4 +1,14 @@
-# ARIA — Advanced Retail Intelligence Assistant
+<p align="center">
+  <img src="./frontend/images/ARIA%20FULL%20LOGO%20Main.png" alt="ARIA Logo" width="250"/>
+</p>
+
+<h1 align="center">ARIA – Advanced Retail Intelligence Assistant</h1>
+
+<p align="center">
+AI-powered retail assistant with voice interaction, intelligent recommendations, and order tracking.
+</p>
+
+---
 
 Complete project structure setup for the ARIA hackathon project.
 
